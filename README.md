@@ -16,3 +16,6 @@ POST : http://localhost:9200/messages/_search
   "match": {"message": "blue sky"}
   }
 }
+
+
+http://localhost:9200/_cat/indices?v
